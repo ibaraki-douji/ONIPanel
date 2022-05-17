@@ -7,5 +7,10 @@ export default StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         paddingTop: (Platform.OS == "android" ? StatusBar.currentHeight : 0) || 0
+    },
+    container: {
+        position: 'absolute',
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
     }
 });
